@@ -3,9 +3,11 @@
 2. Project Setup
 3. Requirement.txt
 
-## Create a Virtual Environment
+## 1. Create a Virtual Environment
 ``conda create -p venv python=3.9 -y``
 
-## Activate the Environment
+## 2. Activate the Environment
 ``conda activate venv/``
 
+## 3. Python setup.py
+`python setup.py install`
