@@ -1,0 +1,13 @@
+prefix=/media/ananda/NightOwl/DataScienceProjects/venv
+exec_prefix=/media/ananda/NightOwl/DataScienceProjects/venv
+libdir=/media/ananda/NightOwl/DataScienceProjects/venv/lib
+sharedlibdir=/media/ananda/NightOwl/DataScienceProjects/venv/lib
+includedir=/media/ananda/NightOwl/DataScienceProjects/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
